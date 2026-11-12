@@ -1,0 +1,13 @@
+ARG NODE_IMAGE
+ARG BUN_IMAGE
+FROM ${NODE_IMAGE} AS deps
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev
+
+# Bun runs the same node_modules npm installed for Node, so only the runtime differs.
+FROM ${BUN_IMAGE}
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY package.json server.ts ./
+CMD ["bun", "server.ts"]

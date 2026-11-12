@@ -1,0 +1,1 @@
+{"kind": "capacity", "variant": "ts-bun-4", "endpoint": "one_order", "round": 1, "non_200": {}, "rps": 23906.174153911405, "p50_ms": 2.458345, "p99_ms": 6.150163999999999, "codes": {"200": 717231}, "idle_rss_mb": 200.7, "peak_rss_mb": 376.5, "idle_mem_mb": 68.4, "peak_mem_mb": 223.7, "pg_cpu": "607.71%", "app_cpu": "361.33%"}

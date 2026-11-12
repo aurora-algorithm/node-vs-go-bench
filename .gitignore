@@ -1,0 +1,7 @@
+node_modules/
+__pycache__/
+results/smoke*/
+.DS_Store
+.vscode/
+.idea/
+.env

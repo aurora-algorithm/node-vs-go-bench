@@ -1,0 +1,1 @@
+{"kind": "capacity", "variant": "ts-node-4-prepared", "endpoint": "one_order", "round": 5, "non_200": {}, "rps": 26629.386575138862, "p50_ms": 2.234197, "p99_ms": 5.099773, "codes": {"200": 798894}, "idle_rss_mb": 401.5, "peak_rss_mb": 678.0, "idle_mem_mb": 157.9, "peak_mem_mb": 442.0, "pg_cpu": "504.02%", "app_cpu": "439.24%"}

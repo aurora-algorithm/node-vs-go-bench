@@ -1,0 +1,1 @@
+{"kind": "capacity", "variant": "go-4", "endpoint": "one_order", "round": 5, "non_200": {}, "rps": 31962.826918699528, "p50_ms": 1.9167830000000001, "p99_ms": 3.6564319999999997, "codes": {"200": 958943}, "idle_rss_mb": 15.9, "peak_rss_mb": 27.9, "idle_mem_mb": 8.8, "peak_mem_mb": 20.7, "pg_cpu": "486.18%", "app_cpu": "300.78%"}

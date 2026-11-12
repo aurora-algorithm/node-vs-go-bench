@@ -1,0 +1,1 @@
+{"kind": "capacity", "variant": "ts-bun-4-prepared", "endpoint": "one_order", "round": 4, "non_200": {}, "rps": 29112.571041398474, "p50_ms": 2.039577, "p99_ms": 5.0696270000000005, "codes": {"200": 873415}, "idle_rss_mb": 200.8, "peak_rss_mb": 385.6, "idle_mem_mb": 63.5, "peak_mem_mb": 228.5, "pg_cpu": "521.82%", "app_cpu": "398.26%"}

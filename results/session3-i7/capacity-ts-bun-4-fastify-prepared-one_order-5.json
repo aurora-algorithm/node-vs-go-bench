@@ -1,0 +1,1 @@
+{"kind": "capacity", "variant": "ts-bun-4-fastify-prepared", "endpoint": "one_order", "round": 5, "non_200": {}, "rps": 29846.849668122195, "p50_ms": 1.968061, "p99_ms": 5.127887, "codes": {"200": 895441}, "idle_rss_mb": 218.0, "peak_rss_mb": 397.3, "idle_mem_mb": 85.8, "peak_mem_mb": 242.4, "pg_cpu": "518.21%", "app_cpu": "383.61%"}

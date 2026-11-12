@@ -1,0 +1,1 @@
+{"kind": "capacity", "variant": "ts-node-4-fastify-prepared", "endpoint": "one_order", "round": 4, "non_200": {}, "rps": 28486.714249950008, "p50_ms": 2.123835, "p99_ms": 4.649816, "codes": {"200": 854620}, "idle_rss_mb": 429.1, "peak_rss_mb": 692.0, "idle_mem_mb": 180.9, "peak_mem_mb": 452.3, "pg_cpu": "494.15%", "app_cpu": "402.95%"}
